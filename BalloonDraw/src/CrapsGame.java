@@ -38,7 +38,7 @@ public class CrapsGame
 		  result = -1;
 		  point = 0;
 	  }
-	  else if (v)
+	  else if ( )
 	  {
 		  
 	  }
