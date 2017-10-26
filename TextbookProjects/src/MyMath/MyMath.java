@@ -83,7 +83,27 @@ public class MyMath
     return true;
   }
 
-  /*********************************************************************/
+  public static String betterPerfect(int m)
+  {
+	  String result = "The first " + m + " perfect numbers are:";
+	  int n = 4;
+	  int pow2 = 2;
+	  int count = 0;
+	  long perfect = 0;
+	  while (count < m)
+	  {
+		if (isPrime(n-1))
+		{
+		  perfect = (n/2)*(n-1);
+		  
+		   
+		}
+		pow2++;
+		n*=2;
+	  }
+	  
+	  return result;
+  }
 
   public static void main(String[] args)
   {
